@@ -1,7 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(61, 61, 61);
+    background-color: #c3aed6;
     display: flex;
     justify-content: center;
 }
+ canvas {
+     display: block;
+     margin: auto;
+     background: #c3aed6;
+ }
+
+ #intro,
+ #end {
+     text-align: center;
+     color: white;
+ }

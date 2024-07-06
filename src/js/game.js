@@ -1,4 +1,4 @@
-import '../css/style.css';
+
 import { Actor, Engine, DisplayMode } from 'excalibur';
 import { Resources, ResourceLoader } from './resources.js';
 import { StartScene } from './startScene.js';

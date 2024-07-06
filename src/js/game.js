@@ -1,10 +1,8 @@
-
-import { Actor, Engine, DisplayMode } from 'excalibur';
+import { Engine, Actor, DisplayMode } from 'excalibur';
 import { Resources, ResourceLoader } from './resources.js';
 import { StartScene } from './startScene.js';
 import { InstructionScene } from './instructionScene.js';
 import { MainGameScene } from './MainGameScene.js';
-import { GameOverScene } from './gameOverScene.js';
 import { EndScene } from './endScene.js';
 
 export class Game extends Engine {
